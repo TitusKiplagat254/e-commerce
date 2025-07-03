@@ -112,6 +112,8 @@
 
   --breakpoint-2xl: initial;
   --breakpoint-2xl: 88rem;
+
+  --background-image-hero-image: url("https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=1374&auto=format&fit=crop");
 }
 
 @layer base {

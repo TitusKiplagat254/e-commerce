@@ -1,3 +1,3 @@
-import { Menu, Search, ShoppingBag, User, X } from "lucide-react";
+import { ChevronRight, Menu, Search, ShoppingBag, User, X } from "lucide-react";
 
-export { Menu, Search, ShoppingBag, User, X };
+export { ChevronRight, Menu, Search, ShoppingBag, User, X };
