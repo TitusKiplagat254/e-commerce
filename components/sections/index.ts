@@ -2,3 +2,4 @@ export { default as Hero } from "./hero";
 export { default as FeaturedProducts } from "./featured-products";
 export { default as CategoryShowcase } from "./category-showcase";
 export { default as DesignPhilosophy } from "./design-philosophy";
+export { default as NewsletterSignup } from "./newsletter-signup";

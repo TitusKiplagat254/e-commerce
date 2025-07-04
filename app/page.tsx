@@ -3,6 +3,7 @@ import {
 	DesignPhilosophy,
 	FeaturedProducts,
 	Hero,
+	NewsletterSignup,
 } from "@/components/sections";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 			<FeaturedProducts />
 			<CategoryShowcase />
 			<DesignPhilosophy />
+			<NewsletterSignup />
 		</>
 	);
 }
