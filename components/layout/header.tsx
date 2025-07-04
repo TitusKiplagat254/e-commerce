@@ -23,7 +23,7 @@ const Header = () => {
 	const cartCount = 1;
 
 	return (
-		<header className="fixed top-0 inset-x-0 bg-white/80 backdrop-blur-md border-b border-white/20 py-3 transition-all duration-300">
+		<header className="fixed top-0 inset-x-0 bg-white/80 backdrop-blur-md border-b border-white/20 py-3 transition-all duration-300 z-50 shadow-sm">
 			<div className="container mx-auto px-4 md:px-6">
 				<div className="flex justify-between items-center">
 					<Link

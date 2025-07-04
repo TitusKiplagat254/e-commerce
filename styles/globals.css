@@ -120,6 +120,10 @@
   * {
     @apply border-border;
   }
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
