@@ -1,5 +1,6 @@
 import {
 	CategoryShowcase,
+	DesignPhilosophy,
 	FeaturedProducts,
 	Hero,
 } from "@/components/sections";
@@ -10,6 +11,7 @@ export default function Home() {
 			<Hero />
 			<FeaturedProducts />
 			<CategoryShowcase />
+			<DesignPhilosophy />
 		</>
 	);
 }
