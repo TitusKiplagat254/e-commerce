@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { Header } from "@/components/layout";
+import { Footer, Header } from "@/components/layout";
 
 import "@/styles/globals.css";
 
@@ -26,7 +26,7 @@ export default function RootLayout({
 			<body className={`${inter.variable} antialiased`}>
 				<Header />
 				<main className="mt-16">{children}</main>
-				{/* footer */}
+				<Footer />
 			</body>
 		</html>
 	);

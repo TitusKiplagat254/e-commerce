@@ -1,11 +1,27 @@
 import {
 	ChevronRight,
+	Facebook,
+	Instagram,
+	Mail,
 	Menu,
 	Search,
 	ShoppingBag,
 	Star,
+	Twitter,
 	User,
 	X,
 } from "lucide-react";
 
-export { ChevronRight, Menu, Search, ShoppingBag, Star, User, X };
+export {
+	ChevronRight,
+	Facebook,
+	Instagram,
+	Mail,
+	Menu,
+	Search,
+	ShoppingBag,
+	Star,
+	Twitter,
+	User,
+	X,
+};
