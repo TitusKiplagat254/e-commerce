@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { ChevronRight } from "@/components/icons";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
 	return (

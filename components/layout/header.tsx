@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useCallback, useState } from "react";
 
 import { Menu, Search, ShoppingBag, User, X } from "@/components/icons";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const navLinks = [

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { ChevronRight } from "@/components/icons";
 import { ProductCard } from "@/components/product";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/button";
 import { getFeaturedProducts } from "@/lib/data";
 
 const FeaturedProducts = () => {

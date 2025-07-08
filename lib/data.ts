@@ -89,7 +89,16 @@ export interface Product {
 	stock: number;
 }
 
-const products: Product[] = [
+export interface ProductType {
+	name: string;
+	description: string;
+	price: number[];
+	image: string;
+	category: string;
+	featured: boolean;
+}
+
+export const products: Product[] = [
 	{
 		id: "1",
 		name: "Minimalist Desk Lamp",
@@ -196,6 +205,162 @@ const products: Product[] = [
 	},
 ];
 
+export const allProducts: ProductType[] = [
+	// Lighting Category
+	{
+		name: "Pendant Light",
+		description:
+			"Minimalist pendant light with adjustable height. Perfect for dining areas or kitchen islands.",
+		price: [129.99, 149.99, 169.99, 189.99],
+		image: allImages[8],
+		category: "Lighting",
+		featured: false,
+	},
+	{
+		name: "Floor Lamp",
+		description:
+			"Elegant floor lamp with a slim profile and warm lighting. Creates a cozy atmosphere in any living space.",
+		price: [159.99, 179.99, 199.99, 219.99],
+		image: allImages[9],
+		category: "Lighting",
+		featured: false,
+	},
+	{
+		name: "Wall Sconce",
+		description:
+			"Modern wall sconce with clean lines. Provides ambient lighting for hallways or reading nooks.",
+		price: [69.99, 79.99, 89.99, 99.99],
+		image: allImages[10],
+		category: "Lighting",
+		featured: false,
+	},
+
+	// Kitchen Category
+	{
+		name: "Ceramic Dinnerware Set",
+		description:
+			"Simple, elegant ceramic dinnerware set in matte finish. Includes plates, bowls, and mugs for four.",
+		price: [119.99, 129.99, 139.99, 149.99],
+		image: allImages[11],
+		category: "Kitchen",
+		featured: false,
+	},
+	{
+		name: "Wooden Cutting Board",
+		description:
+			"Sustainable hardwood cutting board with minimalist design. Perfect for food prep or serving.",
+		price: [39.99, 49.99, 59.99, 69.99],
+		image: allImages[12],
+		category: "Kitchen",
+		featured: false,
+	},
+	{
+		name: "Stainless Steel Cookware Set",
+		description:
+			"Professional-grade stainless steel cookware set with clean lines and excellent heat distribution.",
+		price: [249.99, 299.99, 349.99, 399.99],
+		image: allImages[13],
+		category: "Kitchen",
+		featured: false,
+	},
+
+	// Home Category
+	{
+		name: "Minimalist Vase",
+		description:
+			"Sculptural ceramic vase with a simple, modern silhouette. Beautiful on its own or with dried stems.",
+		price: [34.99, 44.99, 54.99, 64.99],
+		image: allImages[14],
+		category: "Home",
+		featured: false,
+	},
+	{
+		name: "Storage Basket",
+		description:
+			"Handwoven storage basket made from sustainable materials. Ideal for organizing any room.",
+		price: [29.99, 39.99, 49.99, 59.99],
+		image: allImages[15],
+		category: "Home",
+		featured: false,
+	},
+	{
+		name: "Decorative Pillow",
+		description:
+			"Textured decorative pillow in neutral tones. Adds depth and comfort to sofas or beds.",
+		price: [44.99, 54.99, 64.99, 74.99],
+		image: allImages[16],
+		category: "Home",
+		featured: false,
+	},
+
+	// Office Category
+	{
+		name: "Minimalist Desk",
+		description:
+			"Clean-lined desk with ample workspace and subtle storage. Perfect for home office or study area.",
+		price: [299.99, 349.99, 399.99, 449.99],
+		image: allImages[17],
+		category: "Office",
+		featured: false,
+	},
+	{
+		name: "Office Chair",
+		description:
+			"Ergonomic office chair with simple silhouette and comfort-focused design. Supports good posture during long work sessions.",
+		price: [199.99, 249.99, 299.99, 349.99],
+		image: allImages[18],
+		category: "Office",
+		featured: false,
+	},
+	{
+		name: "Wall Shelf System",
+		description:
+			"Modular wall shelf system with clean, minimalist design. Configure to fit your space and storage needs.",
+		price: [89.99, 109.99, 129.99, 149.99],
+		image: allImages[19],
+		category: "Office",
+		featured: false,
+	},
+
+	// Bedroom Category
+	{
+		name: "Platform Bed Frame",
+		description:
+			"Low-profile platform bed frame with clean lines. Creates a serene, minimalist sleeping environment.",
+		price: [499.99, 599.99, 699.99, 799.99],
+		image: allImages[20],
+		category: "Bedroom",
+		featured: false,
+	},
+	{
+		name: "Nightstand",
+		description:
+			"Simple nightstand with drawer storage. Perfect proportions for bedside essentials.",
+		price: [129.99, 149.99, 169.99, 189.99],
+		image: allImages[21],
+		category: "Bedroom",
+		featured: false,
+	},
+	{
+		name: "Wall Mirror",
+		description:
+			"Minimalist wall mirror with thin frame. Reflects light to brighten spaces and create a sense of openness.",
+		price: [79.99, 99.99, 119.99, 139.99],
+		image: allImages[22],
+		category: "Bedroom",
+		featured: false,
+	},
+];
+
 export const getFeaturedProducts = (): Product[] => {
 	return products.filter((product) => product.featured).slice(0, 8);
 };
+
+export const categories = [
+	{ id: "all", name: "All Products" },
+	{ id: "lighting", name: "Lighting" },
+	{ id: "kitchen", name: "Kitchen" },
+	{ id: "home", name: "Home" },
+	{ id: "office", name: "Office" },
+	{ id: "bedroom", name: "Bedroom" },
+];

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { ShoppingBag, Star } from "@/components/icons";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/button";
 import { Product } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import ProductImage from "./product-image";
@@ -19,12 +19,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
 				className={cn("group rounded-lg", featured ? "h-full" : "")}
 			>
 				{/* Product image with skeleton */}
-				<div
-					className={cn(
-						"relative overflow-hidden rounded-lg bg-secondary aspect-square",
-						featured ? "h-80" : "h-64",
-					)}
-				>
+				<div className="relative overflow-hidden rounded-lg bg-secondary aspect-square">
 					<ProductImage src={product.image} alt={product.name} />
 					{/* Quick add button overlay */}
 					<div
