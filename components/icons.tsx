@@ -1,4 +1,5 @@
 import {
+	ArrowRight,
 	ChevronRight,
 	Clock,
 	Facebook,
@@ -13,12 +14,15 @@ import {
 	ShoppingBag,
 	SlidersHorizontal,
 	Star,
+	Trash,
+	Trash2,
 	Twitter,
 	User,
 	X,
 } from "lucide-react";
 
 export {
+	ArrowRight,
 	ChevronRight,
 	Clock,
 	Facebook,
@@ -33,6 +37,8 @@ export {
 	ShoppingBag,
 	SlidersHorizontal,
 	Star,
+	Trash,
+	Trash2,
 	Twitter,
 	User,
 	X,

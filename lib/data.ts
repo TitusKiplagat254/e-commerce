@@ -368,3 +368,44 @@ export const categories = [
 	{ id: "office", name: "Office" },
 	{ id: "bedroom", name: "Bedroom" },
 ];
+
+// cart
+export interface CartItem {
+	product: Product;
+	quantity: number;
+}
+
+export const cartItems: CartItem[] = [
+	{
+		product: {
+			id: "1",
+			name: "Minimalist Desk Lamp",
+			description:
+				"A sleek, minimalist desk lamp with adjustable brightness and color temperature. Perfect for your workspace or bedside table.",
+			price: 89.99,
+			image: allImages[0],
+			category: "Lighting",
+			featured: true,
+			rating: 4.8,
+			reviews: 124,
+			stock: 15,
+		},
+		quantity: 1,
+	},
+	{
+		product: {
+			id: "2",
+			name: "Ceramic Pour-Over Coffee Set",
+			description:
+				"Hand-crafted ceramic pour-over coffee set with a minimalist design. Includes dripper, server, and two cups.",
+			price: 64.99,
+			image: allImages[1],
+			category: "Kitchen",
+			featured: true,
+			rating: 4.9,
+			reviews: 89,
+			stock: 8,
+		},
+		quantity: 2,
+	},
+];

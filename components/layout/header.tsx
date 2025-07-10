@@ -115,7 +115,7 @@ const MobileMenu = ({
 	pathname: string;
 	onClose: () => void;
 }) => (
-	<div className="fixed top-14 inset-x-0 md:hidden bg-white border border-white/20 backdrop-blur-md animate-fade-in z-50">
+	<div className="fixed top-14 inset-x-0 md:hidden bg-white border border-white/20 backdrop-blur-md z-50">
 		<nav className="container px-4 py-4 flex flex-col gap-2">
 			{navLinks.map(({ name, to }) => (
 				<Link
@@ -155,7 +155,7 @@ const CartButton = ({ count }: { count: number }) => (
 		<Link href="/cart">
 			<ShoppingBag className="h-5 w-5" />
 			{count > 0 && (
-				<span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full w-5 h-5 flex items-center justify-center animate-fade-in">
+				<span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full w-5 h-5 flex items-center justify-center">
 					{count}
 				</span>
 			)}
