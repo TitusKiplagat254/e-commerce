@@ -356,6 +356,10 @@ export const getFeaturedProducts = (): Product[] => {
 	return products.filter((product) => product.featured).slice(0, 8);
 };
 
+export const getProductById = (id: string): Product | undefined => {
+	return products.find((product) => product.id === id);
+};
+
 export const categories = [
 	{ id: "all", name: "All Products" },
 	{ id: "lighting", name: "Lighting" },

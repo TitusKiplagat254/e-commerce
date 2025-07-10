@@ -134,3 +134,9 @@
     @apply container mx-auto px-4 md:px-6;
   }
 }
+
+@layer utilities {
+  .btn-hover {
+    @apply transition-all duration-300 hover:translate-y-1 hover:shadow-lg;
+  }
+}
