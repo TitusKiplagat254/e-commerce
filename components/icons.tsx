@@ -1,10 +1,13 @@
 import {
 	ChevronRight,
+	Clock,
 	Facebook,
 	Instagram,
 	Mail,
+	MapPin,
 	Menu,
 	Minus,
+	Phone,
 	Plus,
 	Search,
 	ShoppingBag,
@@ -17,11 +20,14 @@ import {
 
 export {
 	ChevronRight,
+	Clock,
 	Facebook,
 	Instagram,
 	Mail,
+	MapPin,
 	Menu,
 	Minus,
+	Phone,
 	Plus,
 	Search,
 	ShoppingBag,

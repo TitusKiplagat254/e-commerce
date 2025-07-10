@@ -11,7 +11,7 @@ const Mission = () => {
 						</h2>
 						<div className="space-y-6 text-muted-foreground">
 							<p>
-								At Aesthete, we believe that living spaces should be as
+								At EldoShop, we believe that living spaces should be as
 								intentional as they are beautiful. Our mission is to create and
 								curate products that combine form and function, designed to
 								bring harmony to modern living.

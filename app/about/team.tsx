@@ -11,7 +11,7 @@ const Team = () => {
 						Our Team
 					</h2>
 					<p className="text-muted-foreground">
-						Aesthete is a collective of designers, curators, and makers united
+						EldoShop is a collective of designers, curators, and makers united
 						by a shared vision for mindful living through design.
 					</p>
 				</div>
