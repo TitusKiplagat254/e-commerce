@@ -1,7 +1,10 @@
 import {
+	ArrowLeft,
 	ArrowRight,
+	CheckCircle,
 	ChevronRight,
 	Clock,
+	CreditCard,
 	Facebook,
 	Instagram,
 	Mail,
@@ -16,15 +19,19 @@ import {
 	Star,
 	Trash,
 	Trash2,
+	Truck,
 	Twitter,
 	User,
 	X,
 } from "lucide-react";
 
 export {
+	ArrowLeft,
 	ArrowRight,
+	CheckCircle,
 	ChevronRight,
 	Clock,
+	CreditCard,
 	Facebook,
 	Instagram,
 	Mail,
@@ -39,6 +46,7 @@ export {
 	Star,
 	Trash,
 	Trash2,
+	Truck,
 	Twitter,
 	User,
 	X,

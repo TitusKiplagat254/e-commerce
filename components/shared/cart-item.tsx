@@ -6,10 +6,13 @@ import { Button } from "@/components/ui/button";
 import { CartItem as CartItemProps } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
-const CartItem = ({ item }: { item: CartItemProps }) => {
+const CartItem = ({
+	item,
+	compact = false,
+}: { item: CartItemProps; compact?: boolean }) => {
 	const isLoading = false;
-	const compact = false;
 	const subtotal = 256;
+
 	return (
 		<div
 			className={cn(

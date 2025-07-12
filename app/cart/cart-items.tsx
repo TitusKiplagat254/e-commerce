@@ -1,7 +1,7 @@
 import { Trash2 } from "@/components/icons";
+import { CartItem } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { CartItem as CartItemProps } from "@/lib/data";
-import CartItem from "./cart-item";
 
 const CartItems = ({ cartItems }: { cartItems: CartItemProps[] }) => {
 	return (
