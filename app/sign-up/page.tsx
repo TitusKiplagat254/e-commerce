@@ -1,24 +1,24 @@
 import Link from "next/link";
 
-import { LoginForm } from "@/components/auth";
+import { RegisterForm } from "@/components/auth";
 
-function Login() {
+function Register() {
 	return (
 		<div className="container mx-auto px-4 md:px-6 py-8">
 			<div className="max-w-md mx-auto">
 				<div className="text-center mb-8">
-					<h1 className="text-2xl font-bold">Sign In</h1>
+					<h1 className="text-2xl font-bold">Create Account</h1>
 					<p className="text-muted-foreground mt-2">
-						Access your account securely.
+						Start your journey with EldoShop.
 					</p>
 				</div>
 				<div className="bg-card p-6 rounded-lg shadow-sm border border-border">
-					<LoginForm />
+					<RegisterForm />
 				</div>
 				<p className="text-sm text-center mt-4 text-muted-foreground">
-					Don’t have an account?{" "}
-					<Link href="/sign-up" className="text-primary hover:underline">
-						Create one
+					Already have an account?{" "}
+					<Link href="/sign-in" className="text-primary hover:underline">
+						Sign in
 					</Link>
 				</p>
 			</div>
@@ -26,4 +26,4 @@ function Login() {
 	);
 }
 
-export default Login;
+export default Register;
