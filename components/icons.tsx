@@ -1,4 +1,5 @@
 import {
+	ArrowDownToLine,
 	ArrowLeft,
 	ArrowRight,
 	Briefcase,
@@ -6,6 +7,7 @@ import {
 	ChevronRight,
 	Clock,
 	CreditCard,
+	ExternalLink,
 	Facebook,
 	Globe,
 	GraduationCap,
@@ -32,12 +34,14 @@ import {
 } from "lucide-react";
 
 export {
+	ArrowDownToLine,
 	ArrowLeft,
 	ArrowRight,
 	CheckCircle,
 	ChevronRight,
 	Clock,
 	CreditCard,
+	ExternalLink,
 	Facebook,
 	Instagram,
 	Mail,
