@@ -1,5 +1,3 @@
-import { Separator } from "@/components/ui/separator";
-
 const InformationWeCollect = () => {
 	return (
 		<div>
@@ -37,7 +35,6 @@ const InformationWeCollect = () => {
 					<li>Cookies and tracking technologies</li>
 				</ul>
 			</div>
-			<Separator className="mt-8" />
 		</div>
 	);
 };

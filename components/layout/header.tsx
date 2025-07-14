@@ -53,7 +53,7 @@ const Header = () => {
 							asChild
 							aria-label="User account"
 						>
-							<Link href="/login">
+							<Link href="/sign-in">
 								<User className="h-5 w-5" />
 							</Link>
 						</Button>
@@ -135,7 +135,7 @@ const MobileMenu = ({
 			))}
 			<div className="pt-4 mt-4 border-t border-border">
 				<Button className="w-full" variant="default" asChild>
-					<Link href="/login" onClick={onClose}>
+					<Link href="/sign-in" onClick={onClose}>
 						Sign In
 					</Link>
 				</Button>
