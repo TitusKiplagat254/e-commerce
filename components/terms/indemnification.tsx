@@ -6,7 +6,7 @@ const Indemnification = () => {
 			</h2>
 			<div className="space-y-4 text-muted-foreground">
 				<p>
-					{`You agree to indemnify, defend, and hold harmless Aesthete, its
+					{`You agree to indemnify, defend, and hold harmless EldoShop, its
 					affiliates, officers, directors, employees, agents, and suppliers from
 					and against any and all claims, liabilities, damages, losses, costs,
 					expenses, or fees (including reasonable attorneys' fees) that arise

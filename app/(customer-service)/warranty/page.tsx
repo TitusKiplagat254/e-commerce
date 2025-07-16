@@ -6,7 +6,7 @@ import {
 	WarrantyCoverageSection,
 	WhatsCoveredSection,
 	WhatsNotCoveredSection,
-} from "@/components/warranty";
+} from "@/components/warranty/sections";
 
 function Warranty() {
 	return (

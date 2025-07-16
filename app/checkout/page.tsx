@@ -1,12 +1,14 @@
 import Link from "next/link";
 
+import {
+	CheckoutSteps,
+	InfoStep,
+	OrderSummary,
+	PaymentStep,
+	ShippingStep,
+	TrustBadges,
+} from "@/components/checkout";
 import { ArrowLeft } from "@/components/icons";
-import CheckoutSteps from "./checkout-steps";
-import InfoStep from "./info-step";
-import OrderSummary from "./order-summary";
-import PaymentStep from "./payment-step";
-import ShippingStep from "./shipping-step";
-import TrustBadges from "./trust-badges";
 
 function Checkout() {
 	const currentStepNumber = 3;
@@ -22,7 +24,6 @@ function Checkout() {
 				</Link>
 
 				<div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-					{/* Main checkout form */}
 					<div className="lg:col-span-3">
 						<CheckoutSteps currentStepNumber={currentStepNumber} />
 						<InfoStep currentStepNumber={currentStepNumber} />

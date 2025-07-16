@@ -3,7 +3,7 @@ import {
 	ReturnsPolicySection,
 	ShippingInfoSection,
 	SupportCTASection,
-} from "@/components/shipping";
+} from "@/components/shipping/sections";
 
 function Shipping() {
 	return (

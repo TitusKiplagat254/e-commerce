@@ -11,7 +11,7 @@ const Miscellaneous = () => {
 				<p>
 					These Terms, together with our Privacy Policy and any other legal
 					notices or policies published on the Site, constitute the entire
-					agreement between you and Aesthete concerning the Site and supersede
+					agreement between you and EldoShop concerning the Site and supersede
 					all prior or contemporaneous communications.
 				</p>
 
@@ -30,7 +30,7 @@ const Miscellaneous = () => {
 					Our failure to enforce any right or provision of these Terms will not
 					be considered a waiver of such right or provision. The waiver of any
 					such right or provision will be effective only if in writing and
-					signed by a duly authorized representative of Aesthete.
+					signed by a duly authorized representative of EldoShop.
 				</p>
 
 				<h3 className="text-lg font-medium text-foreground mt-4">Assignment</h3>

@@ -10,7 +10,7 @@ const ContactInfo = () => {
 				</p>
 				<div className="bg-secondary p-6 rounded-lg border border-border mt-4">
 					<p className="font-medium text-foreground">
-						Aesthete Legal Department
+						EldoShop Legal Department
 					</p>
 					<p>123 Design Avenue</p>
 					<p>abc, ABC 00000</p>

@@ -1,19 +1,19 @@
 import {
-	Commitments,
-	Hero,
-	Manufacturing,
-	Materials,
-	Packaging,
-} from "@/components/sustainability";
+	CommitmentsSection,
+	HeroSection,
+	ManufacturingSection,
+	MaterialsSection,
+	PackagingSection,
+} from "@/components/sustainability/sections";
 
 function Sustainability() {
 	return (
 		<>
-			<Hero />
-			<Materials />
-			<Manufacturing />
-			<Packaging />
-			<Commitments />
+			<HeroSection />
+			<MaterialsSection />
+			<ManufacturingSection />
+			<PackagingSection />
+			<CommitmentsSection />
 		</>
 	);
 }

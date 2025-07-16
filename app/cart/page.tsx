@@ -1,10 +1,9 @@
 import Link from "next/link";
 
+import { CartItems, OrderSummary } from "@/components/cart";
 import { ArrowRight, ShoppingBag } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { cartItems } from "@/lib/data";
-import CartItems from "./cart-items";
-import OrderSummary from "./order-summary";
 
 function Cart() {
 	return (

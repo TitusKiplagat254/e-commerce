@@ -6,8 +6,8 @@ const Intro = () => {
 			</h2>
 			<div className="space-y-4 text-muted-foreground">
 				<p>
-					{`Welcome to Aesthete ("we," "our," or "us"). By accessing or using our
-					website at www.aesthete.com (the "Site"), placing an order, or using
+					{`Welcome to EldoShop ("we," "our," or "us"). By accessing or using our
+					website at www.eldoshop.com (the "Site"), placing an order, or using
 					any of our services, you agree to be bound by these Terms and
 					Conditions ("Terms"), our Privacy Policy, and any other policies
 					referenced herein.`}

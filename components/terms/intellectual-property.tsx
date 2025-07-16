@@ -7,7 +7,7 @@ const IntellectualProperty = () => {
 			<div className="space-y-4 text-muted-foreground">
 				<p>
 					All content on the Site, including text, graphics, logos, images,
-					product designs, and software, is the property of Aesthete or its
+					product designs, and software, is the property of EldoShop or its
 					content suppliers and is protected by international copyright,
 					trademark, and other intellectual property laws.
 				</p>

@@ -1,4 +1,4 @@
-import { FAQSection, HeroSection } from "@/components/faq";
+import { FAQSection, HeroSection } from "@/components/faq/sections";
 
 function FAQ() {
 	return (

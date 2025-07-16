@@ -1,19 +1,19 @@
 import {
-	Hero,
-	MediaContact,
-	MediaCoverage,
-	PressKit,
-	PressReleases,
-} from "@/components/press";
+	HeroSection,
+	MediaContactSection,
+	MediaCoverageSection,
+	PressKitSection,
+	PressReleasesSection,
+} from "@/components/press/sections";
 
 function Press() {
 	return (
 		<>
-			<Hero />
-			<PressReleases />
-			<MediaCoverage />
-			<PressKit />
-			<MediaContact />
+			<HeroSection />
+			<PressReleasesSection />
+			<MediaCoverageSection />
+			<PressKitSection />
+			<MediaContactSection />
 		</>
 	);
 }

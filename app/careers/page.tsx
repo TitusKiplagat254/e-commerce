@@ -1,12 +1,17 @@
-import { Benefits, Culture, Hero, OpenPositions } from "@/components/careers";
+import {
+	BenefitsSection,
+	CultureSection,
+	HeroSection,
+	OpenPositionsSection,
+} from "@/components/careers/sections";
 
 function Careers() {
 	return (
 		<>
-			<Hero />
-			<Culture />
-			<Benefits />
-			<OpenPositions />
+			<HeroSection />
+			<CultureSection />
+			<BenefitsSection />
+			<OpenPositionsSection />
 		</>
 	);
 }

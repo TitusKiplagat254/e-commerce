@@ -4,7 +4,7 @@ import {
 	FeaturedProducts,
 	Hero,
 	NewsletterSignup,
-} from "@/components/sections";
+} from "@/components/home";
 
 export default function Home() {
 	return (

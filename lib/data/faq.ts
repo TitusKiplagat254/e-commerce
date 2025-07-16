@@ -13,7 +13,7 @@ export const faqData = [
 					"Many of our products involve handcrafting by skilled artisans, while others utilize precision manufacturing techniques. Product descriptions indicate when items are handcrafted.",
 			},
 			{
-				question: "How do I care for my Aesthete products?",
+				question: "How do I care for my EldoShop products?",
 				answer:
 					"Each product comes with care instructions. Generally, we recommend gentle cleaning with appropriate products, avoiding harsh chemicals, and following the Care Guide.",
 			},

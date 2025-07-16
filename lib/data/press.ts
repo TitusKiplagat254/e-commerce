@@ -65,7 +65,7 @@ const pressKitResources = [
 		id: "2",
 		title: "Brand Assets",
 		description:
-			"Logos, typography, color palettes, and usage guidelines for the Aesthete brand.",
+			"Logos, typography, color palettes, and usage guidelines for the EldoShop brand.",
 		cta: "Download Brand Assets",
 	},
 	{

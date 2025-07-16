@@ -1,4 +1,4 @@
-import { HeroSection, TermsSection } from "@/components/terms";
+import { HeroSection, TermsSection } from "@/components/terms/sections";
 
 function Terms() {
 	return (
